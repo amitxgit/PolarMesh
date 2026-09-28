@@ -1,0 +1,598 @@
+{
+  "system": "PolarMesh Autonomous Southern Ocean Observation Platform",
+  "sponsor": "Ministry of Earth Sciences (MoES) / INCOIS",
+  "timestamp": 1790585066,
+  "active_buoys": 5,
+  "fleet": [
+    {
+      "node_id": "PM-01",
+      "name": "Weddell Gateway Alpha",
+      "latitude": -64.47974,
+      "longitude": -48.14941,
+      "is_gateway": true,
+      "under_ice": false,
+      "battery": {
+        "primary_li_socl2_mv": 3600,
+        "buffer_lifepo4_mv": 3280,
+        "supercap_5v_rail_mv": 5099,
+        "soc_percent": 94,
+        "harvest_mw": 384
+      },
+      "ocean": {
+        "sst_c": -1.666,
+        "salinity_psu": 34.184,
+        "wave_height_m": 2.31,
+        "wave_period_s": 6.2,
+        "freezing_point_c": -1.966
+      },
+      "comms": {
+        "mesh_neighbors": [],
+        "last_uplink_epoch": 1790584190,
+        "uplink_status": "READY",
+        "iridium_csq": 4
+      },
+      "status": {
+        "anomaly": "NONE",
+        "operating_state": "GATEWAY_ACTIVE"
+      },
+      "ctd_profile": [
+        {
+          "depth_m": 2,
+          "temp_c": -1.666,
+          "salinity_psu": 34.184,
+          "density_kg_m3": 1027.81
+        },
+        {
+          "depth_m": 10,
+          "temp_c": -1.666,
+          "salinity_psu": 34.184,
+          "density_kg_m3": 1027.84
+        },
+        {
+          "depth_m": 25,
+          "temp_c": -1.666,
+          "salinity_psu": 34.184,
+          "density_kg_m3": 1027.91
+        },
+        {
+          "depth_m": 50,
+          "temp_c": -1.666,
+          "salinity_psu": 34.184,
+          "density_kg_m3": 1028.02
+        },
+        {
+          "depth_m": 75,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.27
+        },
+        {
+          "depth_m": 100,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.38
+        },
+        {
+          "depth_m": 150,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.61
+        },
+        {
+          "depth_m": 200,
+          "temp_c": 1.2,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.47
+        },
+        {
+          "depth_m": 300,
+          "temp_c": 1.1,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.95
+        },
+        {
+          "depth_m": 400,
+          "temp_c": 1.0,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.42
+        },
+        {
+          "depth_m": 500,
+          "temp_c": 0.9,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.89
+        },
+        {
+          "depth_m": 600,
+          "temp_c": 0.8,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1030.36
+        },
+        {
+          "depth_m": 750,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1031.28
+        },
+        {
+          "depth_m": 1000,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1032.4
+        }
+      ]
+    },
+    {
+      "node_id": "PM-02",
+      "name": "Weddell Sea Central",
+      "latitude": -64.81974,
+      "longitude": -48.6494,
+      "is_gateway": false,
+      "under_ice": false,
+      "battery": {
+        "primary_li_socl2_mv": 3600,
+        "buffer_lifepo4_mv": 3280,
+        "supercap_5v_rail_mv": 5101,
+        "soc_percent": 94,
+        "harvest_mw": 424
+      },
+      "ocean": {
+        "sst_c": -1.603,
+        "salinity_psu": 34.115,
+        "wave_height_m": 2.44,
+        "wave_period_s": 6.2,
+        "freezing_point_c": -1.962
+      },
+      "comms": {
+        "mesh_neighbors": [],
+        "last_uplink_epoch": 1790584105,
+        "uplink_status": "READY",
+        "iridium_csq": 4
+      },
+      "status": {
+        "anomaly": "NONE",
+        "operating_state": "SURFACE_DRIFT"
+      },
+      "ctd_profile": [
+        {
+          "depth_m": 2,
+          "temp_c": -1.603,
+          "salinity_psu": 34.115,
+          "density_kg_m3": 1027.74
+        },
+        {
+          "depth_m": 10,
+          "temp_c": -1.603,
+          "salinity_psu": 34.115,
+          "density_kg_m3": 1027.77
+        },
+        {
+          "depth_m": 25,
+          "temp_c": -1.603,
+          "salinity_psu": 34.115,
+          "density_kg_m3": 1027.84
+        },
+        {
+          "depth_m": 50,
+          "temp_c": -1.603,
+          "salinity_psu": 34.115,
+          "density_kg_m3": 1027.95
+        },
+        {
+          "depth_m": 75,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.27
+        },
+        {
+          "depth_m": 100,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.38
+        },
+        {
+          "depth_m": 150,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.61
+        },
+        {
+          "depth_m": 200,
+          "temp_c": 1.2,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.47
+        },
+        {
+          "depth_m": 300,
+          "temp_c": 1.1,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.95
+        },
+        {
+          "depth_m": 400,
+          "temp_c": 1.0,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.42
+        },
+        {
+          "depth_m": 500,
+          "temp_c": 0.9,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.89
+        },
+        {
+          "depth_m": 600,
+          "temp_c": 0.8,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1030.36
+        },
+        {
+          "depth_m": 750,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1031.28
+        },
+        {
+          "depth_m": 1000,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1032.4
+        }
+      ]
+    },
+    {
+      "node_id": "PM-03",
+      "name": "Larsen C Margin Sentinel",
+      "latitude": -65.24974,
+      "longitude": -49.29939,
+      "is_gateway": false,
+      "under_ice": false,
+      "battery": {
+        "primary_li_socl2_mv": 3600,
+        "buffer_lifepo4_mv": 3280,
+        "supercap_5v_rail_mv": 5099,
+        "soc_percent": 94,
+        "harvest_mw": 389
+      },
+      "ocean": {
+        "sst_c": -1.726,
+        "salinity_psu": 34.156,
+        "wave_height_m": 2.33,
+        "wave_period_s": 6.2,
+        "freezing_point_c": -1.964
+      },
+      "comms": {
+        "mesh_neighbors": [],
+        "last_uplink_epoch": 1790584131,
+        "uplink_status": "READY",
+        "iridium_csq": 4
+      },
+      "status": {
+        "anomaly": "NONE",
+        "operating_state": "SURFACE_DRIFT"
+      },
+      "ctd_profile": [
+        {
+          "depth_m": 2,
+          "temp_c": -1.726,
+          "salinity_psu": 34.156,
+          "density_kg_m3": 1027.8
+        },
+        {
+          "depth_m": 10,
+          "temp_c": -1.726,
+          "salinity_psu": 34.156,
+          "density_kg_m3": 1027.83
+        },
+        {
+          "depth_m": 25,
+          "temp_c": -1.726,
+          "salinity_psu": 34.156,
+          "density_kg_m3": 1027.9
+        },
+        {
+          "depth_m": 50,
+          "temp_c": -1.726,
+          "salinity_psu": 34.156,
+          "density_kg_m3": 1028.01
+        },
+        {
+          "depth_m": 75,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.27
+        },
+        {
+          "depth_m": 100,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.38
+        },
+        {
+          "depth_m": 150,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.61
+        },
+        {
+          "depth_m": 200,
+          "temp_c": 1.2,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.47
+        },
+        {
+          "depth_m": 300,
+          "temp_c": 1.1,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.95
+        },
+        {
+          "depth_m": 400,
+          "temp_c": 1.0,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.42
+        },
+        {
+          "depth_m": 500,
+          "temp_c": 0.9,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.89
+        },
+        {
+          "depth_m": 600,
+          "temp_c": 0.8,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1030.36
+        },
+        {
+          "depth_m": 750,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1031.28
+        },
+        {
+          "depth_m": 1000,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1032.4
+        }
+      ]
+    },
+    {
+      "node_id": "PM-04",
+      "name": "Drake Passage Profiler",
+      "latitude": -61.11974,
+      "longitude": -56.39947,
+      "is_gateway": false,
+      "under_ice": false,
+      "battery": {
+        "primary_li_socl2_mv": 3600,
+        "buffer_lifepo4_mv": 3280,
+        "supercap_5v_rail_mv": 5099,
+        "soc_percent": 94,
+        "harvest_mw": 392
+      },
+      "ocean": {
+        "sst_c": -1.663,
+        "salinity_psu": 34.117,
+        "wave_height_m": 2.34,
+        "wave_period_s": 6.2,
+        "freezing_point_c": -1.962
+      },
+      "comms": {
+        "mesh_neighbors": [],
+        "last_uplink_epoch": 1790584741,
+        "uplink_status": "READY",
+        "iridium_csq": 4
+      },
+      "status": {
+        "anomaly": "NONE",
+        "operating_state": "SURFACE_DRIFT"
+      },
+      "ctd_profile": [
+        {
+          "depth_m": 2,
+          "temp_c": -1.663,
+          "salinity_psu": 34.117,
+          "density_kg_m3": 1027.75
+        },
+        {
+          "depth_m": 10,
+          "temp_c": -1.663,
+          "salinity_psu": 34.117,
+          "density_kg_m3": 1027.79
+        },
+        {
+          "depth_m": 25,
+          "temp_c": -1.663,
+          "salinity_psu": 34.117,
+          "density_kg_m3": 1027.85
+        },
+        {
+          "depth_m": 50,
+          "temp_c": -1.663,
+          "salinity_psu": 34.117,
+          "density_kg_m3": 1027.97
+        },
+        {
+          "depth_m": 75,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.27
+        },
+        {
+          "depth_m": 100,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.38
+        },
+        {
+          "depth_m": 150,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.61
+        },
+        {
+          "depth_m": 200,
+          "temp_c": 1.2,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.47
+        },
+        {
+          "depth_m": 300,
+          "temp_c": 1.1,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.95
+        },
+        {
+          "depth_m": 400,
+          "temp_c": 1.0,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.42
+        },
+        {
+          "depth_m": 500,
+          "temp_c": 0.9,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.89
+        },
+        {
+          "depth_m": 600,
+          "temp_c": 0.8,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1030.36
+        },
+        {
+          "depth_m": 750,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1031.28
+        },
+        {
+          "depth_m": 1000,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1032.4
+        }
+      ]
+    },
+    {
+      "node_id": "PM-05",
+      "name": "Filchner-Ronne Under-Ice Sentinel",
+      "latitude": -76.84974,
+      "longitude": -42.49888,
+      "is_gateway": false,
+      "under_ice": true,
+      "battery": {
+        "primary_li_socl2_mv": 3600,
+        "buffer_lifepo4_mv": 3280,
+        "supercap_5v_rail_mv": 5080,
+        "soc_percent": 94,
+        "harvest_mw": 15
+      },
+      "ocean": {
+        "sst_c": -1.92,
+        "salinity_psu": 34.182,
+        "wave_height_m": 2.27,
+        "wave_period_s": 6.2,
+        "freezing_point_c": -1.965
+      },
+      "comms": {
+        "mesh_neighbors": [],
+        "last_uplink_epoch": 1790583063,
+        "uplink_status": "READY",
+        "iridium_csq": 0
+      },
+      "status": {
+        "anomaly": "ICE_LOCKED",
+        "operating_state": "ICE_HOLD"
+      },
+      "ctd_profile": [
+        {
+          "depth_m": 2,
+          "temp_c": -1.92,
+          "salinity_psu": 34.182,
+          "density_kg_m3": 1027.86
+        },
+        {
+          "depth_m": 10,
+          "temp_c": -1.92,
+          "salinity_psu": 34.182,
+          "density_kg_m3": 1027.9
+        },
+        {
+          "depth_m": 25,
+          "temp_c": -1.92,
+          "salinity_psu": 34.182,
+          "density_kg_m3": 1027.96
+        },
+        {
+          "depth_m": 50,
+          "temp_c": -1.92,
+          "salinity_psu": 34.182,
+          "density_kg_m3": 1028.08
+        },
+        {
+          "depth_m": 75,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.27
+        },
+        {
+          "depth_m": 100,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.38
+        },
+        {
+          "depth_m": 150,
+          "temp_c": -1.78,
+          "salinity_psu": 34.32,
+          "density_kg_m3": 1028.61
+        },
+        {
+          "depth_m": 200,
+          "temp_c": 1.2,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.47
+        },
+        {
+          "depth_m": 300,
+          "temp_c": 1.1,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1028.95
+        },
+        {
+          "depth_m": 400,
+          "temp_c": 1.0,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.42
+        },
+        {
+          "depth_m": 500,
+          "temp_c": 0.9,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1029.89
+        },
+        {
+          "depth_m": 600,
+          "temp_c": 0.8,
+          "salinity_psu": 34.68,
+          "density_kg_m3": 1030.36
+        },
+        {
+          "depth_m": 750,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1031.28
+        },
+        {
+          "depth_m": 1000,
+          "temp_c": -0.38,
+          "salinity_psu": 34.66,
+          "density_kg_m3": 1032.4
+        }
+      ]
+    }
+  ]
+}
